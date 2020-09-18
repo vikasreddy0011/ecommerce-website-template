@@ -5,7 +5,7 @@ include 'dbConfig.php';
 
 if(isset($_REQUEST['action']) && !empty($_REQUEST['action'])){
     if($_REQUEST['action'] == 'addToProducts'){
-        // get product details
+        // This creted as a first branch
         // $query = $db->query("SELECT * FROM products WHERE id = ".$productID);
         // $row = $query->fetch_assoc();
         extract($_POST);
