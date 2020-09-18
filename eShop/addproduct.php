@@ -5,7 +5,9 @@ include 'dbConfig.php';
 
 if(isset($_REQUEST['action']) && !empty($_REQUEST['action'])){
     if($_REQUEST['action'] == 'addToProducts'){
+        //This is modification in second branch and created a third branch
         // This creted as a first branch
+        //This is third branch
         // $query = $db->query("SELECT * FROM products WHERE id = ".$productID);
         // $row = $query->fetch_assoc();
         extract($_POST);
